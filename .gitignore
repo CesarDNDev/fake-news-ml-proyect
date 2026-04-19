@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset pesado: se descarga aparte (ver README)
+data/*.csv
+
+# Conservamos models/*.joblib, reports/*.png y reports/*.txt en el repo
+# para que Streamlit Cloud pueda servir la app sin reentrenar.
