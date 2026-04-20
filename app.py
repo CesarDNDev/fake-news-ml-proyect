@@ -8,9 +8,9 @@ import streamlit as st
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_FILE = BASE_DIR / "models" / "fake_news_pipeline.joblib"
 
-st.set_page_config(page_title="Detector de Fake News", page_icon="📰")
+st.set_page_config(page_title="Detector de Fake News")
 
-st.title("📰 Detector de Fake News")
+st.title("Detector de Fake News")
 st.write(
     "Introduce un titular y, si quieres, el cuerpo de la noticia. "
     "La app estimará si parece falsa o real según el modelo entrenado."
