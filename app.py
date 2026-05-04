@@ -13,8 +13,10 @@ st.set_page_config(page_title="Detector de Fake News")
 st.title("Detector de Fake News")
 st.write(
     "Introduce un titular y, si quieres, el cuerpo de la noticia. "
-    "La app estimará si parece falsa o real según el modelo entrenado."
+    "La app estimará si parece falsa o real según el modelo entrbkbjkbenado."
 )
+
+
 
 if not MODEL_FILE.exists():
     st.error(
